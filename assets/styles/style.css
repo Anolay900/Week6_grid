@@ -1,0 +1,310 @@
+.first_line {
+    display: grid;
+    width: 100%;
+    height: 7vh;
+    grid-template-columns: 25% 13%;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: #000;
+}
+
+.contacts,
+a {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+    text-decoration: none;
+}
+
+.look:hover,
+.catalog:hover {
+    color: #fff;
+}
+
+#main_menu {
+    display: grid;
+    width: 100%;
+    height: 20%;
+    grid-template-columns: 25% repeat(3, 11%) 7% 7%;
+    justify-content: center;
+    align-content: center;
+    background-color: #0F0F0F;
+}
+
+.buttons,
+.menu_elements {
+    justify-self: center;
+    align-self: center;
+}
+
+.buttons:hover {
+    color: #FFF;
+    background-color: #1F1F1F;
+}
+
+.buttons {
+    padding: 20%;
+}
+
+#header_foto {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 35% 15%;
+    align-content: space-evenly;
+    background-image: url(/assets/images/head_foto.jpg);
+    background-position: center;
+}
+
+.about {
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 150%;
+    color: #fff;
+}
+
+#about {
+    width: 40%;
+    font-size: 16px;
+}
+
+#season {
+    display: grid;
+    grid-template-rows: 17% 2% 63%;
+    grid-template-columns: 90%;
+    justify-content: space-around;
+    align-content: space-evenly;
+    background-color: #000;
+}
+
+#watch {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: space-around;
+    text-align: left;
+}
+
+.size_watch {
+    height: 60%;
+}
+
+.line,
+.catalog {
+    justify-self: center;
+    align-self: start;
+}
+
+#new_collection {
+    display: grid;
+    grid-template-columns: 70%;
+    grid-template-rows: 20% 8% 20%;
+    justify-content: center;
+    align-content: end;
+    background-image: url(/assets/images/man.png);
+}
+
+#new {
+    display: grid;
+    grid-template-columns: 58% 42%;
+}
+
+.caption {
+    align-self: start;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #fff;
+}
+
+.catalog {
+    border: 1px solid white;
+    padding: 3% 8%;
+}
+
+.catalog:hover {
+    background-color: #ffffff17;
+}
+
+#old_collection {
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 20% 5% 30% 10%;
+    justify-content: center;
+    align-content: space-around;
+    background-color: #000;
+}
+
+#old {
+    display: grid;
+    grid-template-columns: 42% 58%;
+}
+
+#about_old {
+    font-size: 14px;
+}
+
+#jacket {
+    max-width: 100%
+}
+
+#new_income {
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: 20% 5% 70%;
+    justify-content: center;
+    background-color: #000;
+}
+
+#new_watch {
+    display: grid;
+    width: 85%;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 50% 50%;
+    justify-self: center;
+    align-content: end;
+}
+
+#income_caption {
+    align-self: end;
+}
+
+.size_product {
+    height: 82%;
+}
+
+#brand {
+    display: grid;
+    height: 40vh;
+    grid-template-columns: 80%;
+    justify-content: space-around;
+    align-content: space-around;
+    grid-template-rows: 40% 15% 40%;
+    background-color: #0F0F0F;
+}
+
+#logo_brand {
+    justify-self: center;
+}
+
+#footer {
+    display: grid;
+    height: 50vh;
+    grid-template-columns: repeat(3, 25%);
+    grid-template-rows: 80%;
+    justify-content: space-evenly;
+    align-content: center;
+    background-image: url(/assets/images/footer.png);
+}
+
+.footer_menu {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFF
+}
+
+.footer_text {
+    color: #FFF
+}
+
+#mailing {
+    display: grid;
+    grid-template-rows: 25% 30% 20%;
+}
+
+#footer_form,
+#footer_button,
+.footer_text,
+.footer_link {
+    border: none;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+
+}
+
+#footer_form {
+    height: 60%;
+    padding-left: 3%;
+    color: #969696;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+input {
+    outline: none;
+}
+
+#footer_button {
+    height: 64%;
+    width: 35%;
+    cursor: pointer;
+    color: #fff;
+    background-color: #0F0F0F;
+}
+
+#categories {
+    display: grid;
+    grid-template-columns: 20% 30% 25%;
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 50%;
+}
+
+.footer_link {
+    justify-self: center;
+    align-self: center;
+    color: #D0D0D0;
+}
+
+.footer_link:hover {
+    color: #fff;
+}
+
+#cufflinks {
+    justify-self: start;
+    grid-column: 3/4;
+    padding: 10% 20%;
+    background-color: #0F0F0F;
+}
+
+#jewelery {
+    grid-column: 1/3;
+    justify-self: start;
+    padding: 5% 10%;
+    background-color: #0F0F0F;
+}
+
+#clock {
+    justify-self: start;
+    padding: 12% 20%;
+    background-color: #0F0F0F;
+}
+
+#bracelet {
+    padding: 8% 15%;
+    background-color: #0F0F0F;
+}
+
+#belt {
+    padding: 9% 20%;
+    background-color: #0F0F0F;
+}
+
+#figma {
+    text-decoration: underline;
+    font-weight: bold;
+}
