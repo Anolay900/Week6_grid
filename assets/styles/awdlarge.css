@@ -1,0 +1,200 @@
+@media screen and (min-width: 960px) and (max-width: 1600px) {
+    .first_line {
+        display: grid;
+        width: 100%;
+        height: 7vh;
+        grid-template-columns: 2fr 1fr;
+        gap: 5%;
+        align-content: center;
+        background-color: #000;
+    }
+
+
+    .contacts {
+        justify-self: center;
+        font-family: 'PT Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2vh;
+        line-height: 16px;
+        color: #969696;
+        text-decoration: none;
+    }
+
+    #header_foto img {
+        height: 80%;
+    }
+
+    .main_menu {
+        display: grid;
+        width: 100%;
+        height: 20%;
+        grid-template-columns: 25% repeat(3, 15%) 7% 7%;
+        justify-content: space-around;
+        align-content: center;
+        font-size: 1vh;
+        background-color: #0F0F0F;
+    }
+
+    .buttons {
+        padding: 20% 12%;
+        text-transform: uppercase;
+    }
+
+    #new {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr;
+    }
+
+    #new_collection {
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 70%;
+        grid-template-rows: 20% 8% 20%;
+        justify-content: center;
+        align-content: end;
+        background-image: url(../images/man.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+
+    #old {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: black;
+    }
+
+    #jacket {
+        display: none;
+    }
+
+    #old_collection {
+        height: 90vh;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        display: grid;
+        grid-template-rows: 10% 5% 25% 20%;
+        justify-content: center;
+        align-content: space-evenly;
+        background-image: url(../images/jacket.png);
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    #about_old {
+        font-size: 2vh;
+    }
+
+    #new_income {
+        display: grid;
+        grid-template-rows: 5% 2% 1fr;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        background-color: #000;
+    }
+
+    #new_watch {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        justify-content: space-evenly;
+    }
+
+    .fig {
+        justify-self: center;
+    }
+
+    #logo_brand {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15%;
+        justify-content: center;
+    }
+
+    #brand {
+        grid-template-rows: 35% 5% 45%;
+        align-content: start;
+        padding: 5%;
+        padding-bottom: 10%;
+    }
+
+    #footer {
+        display: grid;
+        height: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 30% 60%;
+        justify-content: space-evenly;
+        align-content: center;
+        gap: 5%;
+        padding: 2%;
+        background-image: url(../images/footer.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+
+    .footer_categories {
+        display: inline-flex;
+        grid-column: 1/4;
+        order: -1;
+    }
+
+    #categories {
+        display: grid;
+        padding: 3%;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr;
+        justify-content: space-around;
+    }
+
+    #cufflinks {
+        justify-self: center;
+        grid-column: 3/4;
+        grid-row: 1/2;
+        padding: 10% 20%;
+        background-color: #0F0F0F;
+    }
+
+    #jewelery {
+        justify-self: center;
+        grid-row: 1/2;
+        grid-column: 1/2;
+        padding: 10% 0%;
+        background-color: #0F0F0F;
+    }
+
+    #clock {
+        justify-self: center;
+        grid-column: 2/3;
+        padding: 10% 25%;
+        background-color: #0F0F0F;
+    }
+
+    #bracelet {
+        justify-self: center;
+        grid-column: 4/5;
+        padding: 10% 15%;
+        background-color: #0F0F0F;
+    }
+
+    #belt {
+        justify-self: center;
+        grid-column: 5/6;
+        padding: 10% 20%;
+        background-color: #0F0F0F;
+    }
+
+    #mailing {
+        display: grid;
+        grid-template-rows: repeat(3, 35%);
+
+    }
+
+    #last_line {
+        display: none;
+    }
+}

@@ -1,0 +1,249 @@
+@media screen and (min-width: 240px) and (max-width: 319px) {
+    .first_line {
+        display: none;
+    }
+
+    img.menu_elements {
+        display: none;
+    }
+
+    #header_foto img {
+        height: 60%;
+    }
+
+    .main_menu {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: repeat(3, 1fr);
+        grid-auto-flow: column;
+        justify-content: space-evenly;
+        align-content: start;
+    }
+
+    .buttons {
+        padding: 15% 33%;
+        font-size: 2vh;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    #header_foto {
+        display: grid;
+        width: 100%;
+        height: 100vh;
+        grid-template-columns: 100%;
+        grid-template-rows: 60% 40%;
+        align-content: space-around;
+        background-image: url(../images/head_foto.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #about {
+        width: 90%;
+        font-size: 2.5vh;
+    }
+
+    #season {
+        display: grid;
+        grid-template-rows: 5% 2% 1fr;
+    }
+
+    #watch {
+        display: grid;
+        width: 84vw;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        justify-content: center;
+        text-align: left;
+    }
+
+    .size_watch {
+        height: 60%;
+    }
+
+    .caption {
+        font-size: 3.5vh;
+    }
+
+    #new {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    #new_collection {
+        display: grid;
+        height: 75vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 25% 10% 20%;
+        justify-content: center;
+        align-content: end;
+        background-image: url(../images/man.png);
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+
+    #old {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: black;
+    }
+
+    #jacket {
+        display: none;
+    }
+
+    #old_collection {
+        display: grid;
+        height: 80vh;
+        grid-template-columns: 90%;
+        margin: 7% 0%;
+        grid-template-rows: 1fr 10% 1fr 1fr;
+        justify-content: center;
+        align-content: space-evenly;
+        background-image: url(../images/jacket.png);
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    #about_old {
+        font-size: 2vh;
+    }
+
+    #new_income {
+        display: grid;
+        grid-template-rows: 2% 1% 1fr;
+        grid-template-columns: 1fr;
+        padding-bottom: 0%;
+        justify-content: center;
+        background-color: #000;
+    }
+
+    .size_product {
+        height: 60%;
+    }
+
+    #new_watch {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        justify-content: space-evenly;
+    }
+
+    .fig {
+        justify-self: center;
+    }
+
+    #logo_brand {
+        display: grid;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    #logo_brand img {
+        height: 20%;
+    }
+
+    #brand {
+        grid-template-rows: 10% 2% 60%;
+        height: 100%;
+        padding: 4%;
+        padding-bottom: 8%;
+    }
+
+    #footer {
+        display: grid;
+        height: 150vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 25% 30% 35%;
+        justify-content: space-evenly;
+        align-content: center;
+        gap: 5%;
+        padding: 3%;
+        background-image: url(../images/footer.png);
+        background-position: center;
+        background-color: black;
+    }
+
+    .footer_text {
+        font-size: 2.5vh;
+    }
+
+    .footer_menu {
+        font-size: 3.5vh;
+    }
+
+    .footer_categories {
+        grid-column: 1/4;
+        order: -1;
+    }
+
+    #categories {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 20% 20%;
+        justify-content: space-evenly;
+    }
+
+    #cufflinks {
+        justify-self: start;
+        grid-column: 3/4;
+        padding: 8% 8%;
+        background-color: #0F0F0F;
+    }
+
+    #jewelery {
+        justify-self: start;
+        grid-column: 1/3;
+        padding: 4% 4%;
+        text-align: center;
+        background-color: #0F0F0F;
+    }
+
+    #clock {
+        justify-self: start;
+        grid-column: 1/2;
+        padding: 8% 15%;
+        background-color: #0F0F0F;
+    }
+
+    #bracelet {
+        justify-self: start;
+        grid-column: 2/3;
+        padding: 8% 5%;
+        background-color: #0F0F0F;
+    }
+
+    #belt {
+        justify-self: start;
+        grid-column: 3/4;
+        padding: 8% 10%;
+        background-color: #0F0F0F;
+    }
+
+    #mailing {
+        display: grid;
+        grid-row: 3/4;
+        grid-template-rows: repeat(3, 35%);
+        padding-bottom: 4%;
+
+    }
+
+    #footer_form {
+        height: 45%;
+        padding-left: 3%;
+        color: #969696;
+        background-color: rgba(255, 255, 255, 0.4);
+    }
+
+    #footer_button {
+        height: 45%;
+        width: 91%;
+        text-transform: uppercase;
+        cursor: pointer;
+        color: #fff;
+        background-color: #0F0F0F;
+    }
+}

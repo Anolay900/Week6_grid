@@ -24,7 +24,7 @@ a {
     color: #fff;
 }
 
-#main_menu {
+.main_menu {
     display: grid;
     width: 100%;
     height: 20%;
@@ -55,9 +55,10 @@ a {
     width: 100%;
     height: 100vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 35% 15%;
+    grid-template-rows: 2fr 1fr;
     align-content: space-evenly;
     background-image: url(../images/head_foto.jpg);
+    background-repeat: no-repeat;
     background-position: center;
 }
 
@@ -73,6 +74,7 @@ a {
 }
 
 #about {
+    align-self: start;
     width: 40%;
     font-size: 16px;
 }
@@ -163,7 +165,6 @@ a {
 
 #new_income {
     display: grid;
-    grid-template-columns: 80%;
     grid-template-rows: 20% 5% 70%;
     justify-content: center;
     background-color: #000;
@@ -189,10 +190,10 @@ a {
 #brand {
     display: grid;
     height: 40vh;
-    grid-template-columns: 80%;
+    grid-template-columns: 1fr;
     justify-content: space-around;
     align-content: space-around;
-    grid-template-rows: 40% 15% 40%;
+    grid-template-rows: repeat(3, 1fr);
     background-color: #0F0F0F;
 }
 
@@ -204,7 +205,7 @@ a {
     display: grid;
     height: 50vh;
     grid-template-columns: repeat(3, 25%);
-    grid-template-rows: 80%;
+    grid-template-rows: 70%;
     justify-content: space-evenly;
     align-content: center;
     background-image: url(../images/footer.png);
@@ -307,6 +308,14 @@ input {
 #belt {
     padding: 9% 20%;
     background-color: #0F0F0F;
+}
+
+#clock:hover,
+#bracelet:hover,
+#belt:hover,
+#jewelery:hover,
+#cufflinks:hover {
+    background-color: rgb(78, 78, 78);
 }
 
 #figma {

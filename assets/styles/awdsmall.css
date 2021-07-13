@@ -1,0 +1,199 @@
+@media screen and (min-width: 480px) and (max-width: 759px) {
+    .first_line {
+        display: none;
+    }
+
+    img.menu_elements {
+        display: none;
+    }
+
+    #header_foto img {
+        height: 80%;
+    }
+
+    .main_menu {
+        grid-template-columns: repeat(3, 25%) 10% 10%;
+        justify-content: space-around;
+    }
+
+    .buttons {
+        padding: 35% 10%;
+        font-size: 1.5vh;
+        text-transform: uppercase;
+    }
+
+    #about {
+        width: 90%;
+        font-size: 2.5vh;
+    }
+
+    #season {
+        display: grid;
+        grid-template-rows: 8% 2% 1fr;
+    }
+
+    #watch {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        justify-content: center;
+        text-align: left;
+    }
+
+    .size_watch {
+        height: 80%;
+    }
+
+    #new {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    #new_collection {
+        display: grid;
+        height: 75vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 25% 10% 20%;
+        justify-content: center;
+        align-content: end;
+        background-image: url(../images/man.png);
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+
+    #old {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: black;
+    }
+
+    #jacket {
+        display: none;
+    }
+
+    #old_collection {
+        display: grid;
+        height: 80vh;
+        grid-template-columns: 90%;
+        margin: 7% 0%;
+        grid-template-rows: 1fr 5% 1fr 1fr;
+        justify-content: center;
+        align-content: space-evenly;
+        background-image: url(../images/jacket.png);
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    #about_old {
+        font-size: 2.5vh;
+    }
+
+    #new_income {
+        display: grid;
+        grid-template-rows: 3% 1% 1fr;
+        grid-template-columns: 1fr;
+        padding-bottom: 5%;
+        justify-content: center;
+        background-color: #000;
+    }
+
+    #new_watch {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        justify-content: space-evenly;
+    }
+
+    .fig {
+        justify-self: center;
+    }
+
+    #logo_brand {
+        display: grid;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    #brand {
+        grid-template-rows: 20% 2% 70%;
+        height: 100%;
+        padding: 4%;
+        padding-bottom: 8%;
+    }
+
+    #footer {
+        display: grid;
+        height: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 20% 33% 35%;
+        justify-content: space-evenly;
+        align-content: center;
+        gap: 5%;
+        padding: 4%;
+        background-image: url(../images/footer.png);
+        background-position: center;
+        background-color: black;
+    }
+
+    .footer_categories {
+        grid-column: 1/4;
+        order: -1;
+    }
+
+    #categories {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr;
+        justify-content: space-evenly;
+    }
+
+    #cufflinks {
+        justify-self: center;
+        grid-column: 3/4;
+        grid-row: 1/2;
+        padding: 15% 15%;
+        background-color: #0F0F0F;
+    }
+
+    #jewelery {
+        justify-self: center;
+        grid-row: 1/2;
+        grid-column: 1/2;
+        padding: 3% 0%;
+        text-align: center;
+        background-color: #0F0F0F;
+    }
+
+    #clock {
+        justify-self: center;
+        grid-column: 2/3;
+        padding: 15% 25%;
+        background-color: #0F0F0F;
+    }
+
+    #bracelet {
+        justify-self: center;
+        grid-column: 4/5;
+        padding: 15% 15%;
+        background-color: #0F0F0F;
+    }
+
+    #belt {
+        justify-self: center;
+        grid-column: 5/6;
+        padding: 15% 20%;
+        background-color: #0F0F0F;
+    }
+
+    #mailing {
+        display: grid;
+        grid-row: 3/4;
+        grid-template-rows: repeat(3, 40%);
+        padding-bottom: 4%;
+
+    }
+
+}
